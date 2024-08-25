@@ -2,45 +2,45 @@
 *
 * Itagaki Fumihiko 30-Aug-92  Create.
 * 1.2
-* Itagaki Fumihiko 06-Nov-92  Human68k‚Ìfatchk‚ÌƒoƒO‘ÎôD
-*                             strip_excessive_slashes‚ÌƒoƒOfix‚É”º‚¤‰ü”ÅD
-*                             ±×‚ÈƒƒbƒZ[ƒW•ÏXD
+* Itagaki Fumihiko 06-Nov-92  Human68kã®fatchkã®ãƒã‚°å¯¾ç­–ï¼
+*                             strip_excessive_slashesã®ãƒã‚°fixã«ä¼´ã†æ”¹ç‰ˆï¼
+*                             äº›ç´°ãªãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å¤‰æ›´ï¼
 * 1.3
-* Itagaki Fumihiko 16-Dec-92  ˆø”‚ª 2‚Âimv a bj‚Ì‚Æ‚«Cb ‚ª‘¶İ‚·‚éƒfƒB
-*                             ƒŒƒNƒgƒŠ‚Å‚ ‚Á‚Ä‚àCa ‚Æ b ‚ª“¯‚¶ƒGƒ“ƒgƒŠ‚ğ
-*                             w‚·ƒpƒX–¼‚Å‚ ‚éê‡‚É‚Í“Á•Ê‚É mv d1 d2 ‚ÌŒ`
-*                             ®‚Æ‚µ‚Äˆ—‚·‚é‚æ‚¤‚É‚µ‚½D‚±‚ê‚ÅƒfƒBƒŒƒNƒg
-*                             ƒŠ‚É‘Î‚µ‚Ä‚à CASE.X ‚Æ“¯‚¶‚±‚Æi“¯‚¶’Ô‚è‚Ì‚Ü
-*                             ‚Ü‘å•¶š^¬•¶š‚ğ•ÏX‚·‚éj‚ª‰Â”\‚É‚È‚Á‚½D
-* Itagaki Fumihiko 27-Dec-92  -I ƒIƒvƒVƒ‡ƒ“‚Ì’Ç‰ÁD
-* Itagaki Fumihiko 27-Dec-92  -m ƒIƒvƒVƒ‡ƒ“‚Ì’Ç‰ÁD
+* Itagaki Fumihiko 16-Dec-92  å¼•æ•°ãŒ 2ã¤ï¼ˆmv a bï¼‰ã®ã¨ãï¼Œb ãŒå­˜åœ¨ã™ã‚‹ãƒ‡ã‚£
+*                             ãƒ¬ã‚¯ãƒˆãƒªã§ã‚ã£ã¦ã‚‚ï¼Œa ã¨ b ãŒåŒã˜ã‚¨ãƒ³ãƒˆãƒªã‚’
+*                             æŒ‡ã™ãƒ‘ã‚¹åã§ã‚ã‚‹å ´åˆã«ã¯ç‰¹åˆ¥ã« mv d1 d2 ã®å½¢
+*                             å¼ã¨ã—ã¦å‡¦ç†ã™ã‚‹ã‚ˆã†ã«ã—ãŸï¼ã“ã‚Œã§ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆ
+*                             ãƒªã«å¯¾ã—ã¦ã‚‚ CASE.X ã¨åŒã˜ã“ã¨ï¼ˆåŒã˜ç¶´ã‚Šã®ã¾
+*                             ã¾å¤§æ–‡å­—ï¼å°æ–‡å­—ã‚’å¤‰æ›´ã™ã‚‹ï¼‰ãŒå¯èƒ½ã«ãªã£ãŸï¼
+* Itagaki Fumihiko 27-Dec-92  -I ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã®è¿½åŠ ï¼
+* Itagaki Fumihiko 27-Dec-92  -m ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã®è¿½åŠ ï¼
 * 1.4
 * Itagaki Fumihiko 10-Jan-93  GETPDB -> lea $10(a0),a0
-* Itagaki Fumihiko 12-Jan-93  -e ƒIƒvƒVƒ‡ƒ“‚Ì’Ç‰ÁD
-* Itagaki Fumihiko 20-Jan-93  ˆø” - ‚Æ -- ‚Ìˆµ‚¢‚Ì•ÏX
-* Itagaki Fumihiko 22-Jan-93  ƒXƒ^ƒbƒN‚ğŠg’£
-* Itagaki Fumihiko 24-Jan-93  v1.4 ‚Å‚Ì identical check ‚ª³í‚És‚í‚ê‚È‚¢
-*                             ƒGƒ“ƒoƒO‚ğC³
-* Itagaki Fumihiko 25-Jan-93  ƒGƒ‰[EƒƒbƒZ[ƒW‚ÌC³
+* Itagaki Fumihiko 12-Jan-93  -e ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã®è¿½åŠ ï¼
+* Itagaki Fumihiko 20-Jan-93  å¼•æ•° - ã¨ -- ã®æ‰±ã„ã®å¤‰æ›´
+* Itagaki Fumihiko 22-Jan-93  ã‚¹ã‚¿ãƒƒã‚¯ã‚’æ‹¡å¼µ
+* Itagaki Fumihiko 24-Jan-93  v1.4 ã§ã® identical check ãŒæ­£å¸¸ã«è¡Œã‚ã‚Œãªã„
+*                             ã‚¨ãƒ³ãƒã‚°ã‚’ä¿®æ­£
+* Itagaki Fumihiko 25-Jan-93  ã‚¨ãƒ©ãƒ¼ãƒ»ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ä¿®æ­£
 * 1.5
-* Itagaki Fumihiko 27-Nov-93  -m-w+x i-m ‚Æ mode ‚ğ‚­‚Á‚Â‚¯‚Äw’èj‚ğ‹–‚·
-* Itagaki Fumihiko 27-Nov-93  -m 644 i8i”’l•\Œ»j‚ğ‹–‚·
-* Itagaki Fumihiko 28-Nov-93  ˆê•”‚Ìˆ—‚Ì‚‘¬‰»
-* Itagaki Fumihiko 30-Dec-93  Šeƒhƒ‰ƒCƒu‚ÌƒJƒŒƒ“ƒgEƒfƒBƒŒƒNƒgƒŠ‚ÌˆÚ“®‚ğ‹Ö~
-* Itagaki Fumihiko 30-Dec-93  ƒfƒBƒŒƒNƒgƒŠ‚ğˆÚ“®‚µ‚½‚ç .. ‚ÌƒŠƒ“ƒNæ‚ğC³‚·‚é
+* Itagaki Fumihiko 27-Nov-93  -m-w+x ï¼ˆ-m ã¨ mode ã‚’ãã£ã¤ã‘ã¦æŒ‡å®šï¼‰ã‚’è¨±ã™
+* Itagaki Fumihiko 27-Nov-93  -m 644 ï¼ˆ8é€²æ•°å€¤è¡¨ç¾ï¼‰ã‚’è¨±ã™
+* Itagaki Fumihiko 28-Nov-93  ä¸€éƒ¨ã®å‡¦ç†ã®é«˜é€ŸåŒ–
+* Itagaki Fumihiko 30-Dec-93  å„ãƒ‰ãƒ©ã‚¤ãƒ–ã®ã‚«ãƒ¬ãƒ³ãƒˆãƒ»ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã®ç§»å‹•ã‚’ç¦æ­¢
+* Itagaki Fumihiko 30-Dec-93  ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ç§»å‹•ã—ãŸã‚‰ .. ã®ãƒªãƒ³ã‚¯å…ˆã‚’ä¿®æ­£ã™ã‚‹
 * 1.6
-* Itagaki Fumihiko 11-Sep-94  ˆÚ“®‚µ‚æ‚¤‚Æ‚·‚éƒfƒBƒŒƒNƒgƒŠ‚ªŠeƒhƒ‰ƒCƒu‚ÌƒJƒŒƒ“ƒgEƒfƒBƒŒƒNƒgƒŠ
-*                             ‚Å‚È‚¢‚©‚Ç‚¤‚©‚ğƒ`ƒFƒbƒN‚·‚é•û–@‚ğ•ÏX
+* Itagaki Fumihiko 11-Sep-94  ç§»å‹•ã—ã‚ˆã†ã¨ã™ã‚‹ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãŒå„ãƒ‰ãƒ©ã‚¤ãƒ–ã®ã‚«ãƒ¬ãƒ³ãƒˆãƒ»ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
+*                             ã§ãªã„ã‹ã©ã†ã‹ã‚’ãƒã‚§ãƒƒã‚¯ã™ã‚‹æ–¹æ³•ã‚’å¤‰æ›´
 * 1.7
-* Itagaki Fumihiko 10-Jun-95  ‘½dmount‘Î‰
-* Itagaki Fumihiko 10-Jun-95  ƒGƒ‰[ƒ`ƒFƒbƒN‹­‰»
+* Itagaki Fumihiko 10-Jun-95  å¤šé‡mountå¯¾å¿œ
+* Itagaki Fumihiko 10-Jun-95  ã‚¨ãƒ©ãƒ¼ãƒã‚§ãƒƒã‚¯å¼·åŒ–
 * 1.8
-* Itagaki Fumihiko 18-Jun-95  v1.8‚Å‚ÌƒGƒ“ƒoƒO‚ğC³
+* Itagaki Fumihiko 18-Jun-95  v1.8ã§ã®ã‚¨ãƒ³ãƒã‚°ã‚’ä¿®æ­£
 * 1.9
 *
-* Usage: mv [ -Ifiuvx ] [ -m mode ] [ -- ] <ƒtƒ@ƒCƒ‹1> <ƒtƒ@ƒCƒ‹2>
-*        mv [ -Ifiuvx ] [ -m mode ] [ -- ] <ƒfƒBƒŒƒNƒgƒŠ1> <ƒfƒBƒŒƒNƒgƒŠ2>
-*        mv [ -Iefiuvx ] [ -m mode ] [ -- ] <ƒtƒ@ƒCƒ‹> ... <ƒfƒBƒŒƒNƒgƒŠ>
+* Usage: mv [ -Ifiuvx ] [ -m mode ] [ -- ] <ãƒ•ã‚¡ã‚¤ãƒ«1> <ãƒ•ã‚¡ã‚¤ãƒ«2>
+*        mv [ -Ifiuvx ] [ -m mode ] [ -- ] <ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª1> <ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª2>
+*        mv [ -Iefiuvx ] [ -m mode ] [ -- ] <ãƒ•ã‚¡ã‚¤ãƒ«> ... <ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª>
 
 .include doscall.h
 .include error.h
@@ -61,9 +61,9 @@
 .xref strip_excessive_slashes
 .xref fclose
 
-REQUIRED_OSVER	equ	$200			*  2.00ˆÈ~
+REQUIRED_OSVER	equ	$200			*  2.00ä»¥é™
 
-STACKSIZE	equ	16384			*  ƒX[ƒp[ƒoƒCƒUƒ‚[ƒh‚Å‚Í15KBˆÈã•K—v
+STACKSIZE	equ	16384			*  ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒã‚¤ã‚¶ãƒ¢ãƒ¼ãƒ‰ã§ã¯15KBä»¥ä¸Šå¿…è¦
 GETSLEN		equ	32
 
 FLAG_f			equ	0
@@ -98,12 +98,12 @@ start:
 		bra.s	start1
 		dc.b	'#HUPAIR',0
 start1:
-		lea	stack_bottom(pc),a7		*  A7 := ƒXƒ^ƒbƒN‚Ì’ê
+		lea	stack_bottom(pc),a7		*  A7 := ã‚¹ã‚¿ãƒƒã‚¯ã®åº•
 		DOS	_VERNUM
 		cmp.w	#REQUIRED_OSVER,d0
 		bcs	dos_version_mismatch
 
-		lea	$10(a0),a0			*  A0 : PDBƒAƒhƒŒƒX
+		lea	$10(a0),a0			*  A0 : PDBã‚¢ãƒ‰ãƒ¬ã‚¹
 		move.l	a7,d0
 		sub.l	a0,d0
 		move.l	d0,-(a7)
@@ -111,17 +111,17 @@ start1:
 		DOS	_SETBLOCK
 		addq.l	#8,a7
 	*
-	*  ˆø”•À‚ÑŠi”[ƒGƒŠƒA‚ğŠm•Û‚·‚é
+	*  å¼•æ•°ä¸¦ã³æ ¼ç´ã‚¨ãƒªã‚¢ã‚’ç¢ºä¿ã™ã‚‹
 	*
-		lea	1(a2),a0			*  A0 := ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚Ì•¶š—ñ‚Ìæ“ªƒAƒhƒŒƒX
-		bsr	strlen				*  D0.L := ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚Ì•¶š—ñ‚Ì’·‚³
+		lea	1(a2),a0			*  A0 := ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã®æ–‡å­—åˆ—ã®å…ˆé ­ã‚¢ãƒ‰ãƒ¬ã‚¹
+		bsr	strlen				*  D0.L := ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã®æ–‡å­—åˆ—ã®é•·ã•
 		addq.l	#1,d0
 		bsr	malloc
 		bmi	insufficient_memory
 
-		movea.l	d0,a1				*  A1 := ˆø”•À‚ÑŠi”[ƒGƒŠƒA‚Ìæ“ªƒAƒhƒŒƒX
+		movea.l	d0,a1				*  A1 := å¼•æ•°ä¸¦ã³æ ¼ç´ã‚¨ãƒªã‚¢ã®å…ˆé ­ã‚¢ãƒ‰ãƒ¬ã‚¹
 	*
-	*  ƒoƒbƒtƒ@‚ğŠm•Û‚·‚é
+	*  ãƒãƒƒãƒ•ã‚¡ã‚’ç¢ºä¿ã™ã‚‹
 	*
 		move.l	#$00ffffff,d0
 		bsr	malloc
@@ -135,16 +135,16 @@ start1:
 
 		move.l	d0,copy_buffer_top
 	*
-	*  lndrv ‚ª‘g‚İ‚Ü‚ê‚Ä‚¢‚é‚©‚Ç‚¤‚©‚ğŒŸ¸‚·‚é
+	*  lndrv ãŒçµ„ã¿è¾¼ã¾ã‚Œã¦ã„ã‚‹ã‹ã©ã†ã‹ã‚’æ¤œæŸ»ã™ã‚‹
 	*
 		bsr	getlnenv
 		move.l	d0,lndrv
 	*
-	*  ˆø”‚ğƒfƒR[ƒh‚µC‰ğß‚·‚é
+	*  å¼•æ•°ã‚’ãƒ‡ã‚³ãƒ¼ãƒ‰ã—ï¼Œè§£é‡ˆã™ã‚‹
 	*
-		bsr	DecodeHUPAIR			*  ˆø”‚ğƒfƒR[ƒh‚·‚é
-		movea.l	a1,a0				*  A0 : ˆø”ƒ|ƒCƒ“ƒ^
-		move.l	d0,d7				*  D7.L : ˆø”ƒJƒEƒ“ƒ^
+		bsr	DecodeHUPAIR			*  å¼•æ•°ã‚’ãƒ‡ã‚³ãƒ¼ãƒ‰ã™ã‚‹
+		movea.l	a1,a0				*  A0 : å¼•æ•°ãƒã‚¤ãƒ³ã‚¿
+		move.l	d0,d7				*  D7.L : å¼•æ•°ã‚«ã‚¦ãƒ³ã‚¿
 		move.b	#$ff,mode_mask
 		clr.b	mode_plus
 		moveq	#0,d5				*  D5.L : flags
@@ -382,17 +382,17 @@ decode_opt_done:
 		subq.l	#2,d7
 		bcs	too_few_args
 	*
-	*  •W€“ü—Í‚ª’[––‚Å‚ ‚é‚©‚Ç‚¤‚©‚ğ’²‚×‚Ä‚¨‚­
+	*  æ¨™æº–å…¥åŠ›ãŒç«¯æœ«ã§ã‚ã‚‹ã‹ã©ã†ã‹ã‚’èª¿ã¹ã¦ãŠã
 	*
-		moveq	#0,d0				*  •W€“ü—Í‚Í
-		bsr	is_chrdev			*  ƒLƒƒƒ‰ƒNƒ^ƒfƒoƒCƒX
+		moveq	#0,d0				*  æ¨™æº–å…¥åŠ›ã¯
+		bsr	is_chrdev			*  ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ‡ãƒã‚¤ã‚¹
 		sne	stdin_is_terminal
 	*
-	*  ˆ—ŠJn
+	*  å‡¦ç†é–‹å§‹
 	*
-		moveq	#0,d6				*  D6.W : ƒGƒ‰[EƒR[ƒh
+		moveq	#0,d6				*  D6.W : ã‚¨ãƒ©ãƒ¼ãƒ»ã‚³ãƒ¼ãƒ‰
 	*
-	*  target‚ğ’²‚×‚é
+	*  targetã‚’èª¿ã¹ã‚‹
 	*
 		movea.l	a0,a1				*  A1 : 1st arg
 		move.l	d7,d0
@@ -401,12 +401,12 @@ find_target:
 		subq.l	#1,d0
 		bcc	find_target
 							*  A0 : target arg
-		bsr	strip_excessive_slashes		*  target arg ‚ğ strip‚·‚é
+		bsr	strip_excessive_slashes		*  target arg ã‚’ stripã™ã‚‹
 		exg	a0,a1				*  A0 : 1st arg, A1 : target arg
 		movea.l	a0,a2
 		bsr	strfor1
 		exg	a0,a2				*  A2 : 2nd arg (if any)
-		bsr	strip_excessive_slashes		*  1st arg ‚ğ strip‚·‚é
+		bsr	strip_excessive_slashes		*  1st arg ã‚’ stripã™ã‚‹
 
 		exg	a0,a1
 		bsr	is_directory
@@ -414,17 +414,17 @@ find_target:
 		bmi	exit_program
 		bne	mv_into_dir
 
-	*  target‚ÍƒfƒBƒŒƒNƒgƒŠ‚Å‚Í‚È‚¢
+	*  targetã¯ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã§ã¯ãªã„
 
 		tst.l	d7
-		bne	not_directory			*  ƒtƒ@ƒCƒ‹ˆø”‚ª 3‚ÂˆÈã .. ƒGƒ‰[
+		bne	not_directory			*  ãƒ•ã‚¡ã‚¤ãƒ«å¼•æ•°ãŒ 3ã¤ä»¥ä¸Š .. ã‚¨ãƒ©ãƒ¼
 mv_source_to_target:
 		bsr	move_file
 exit_program:
 		move.w	d6,-(a7)
 		DOS	_EXIT2
 
-	*  target‚ÍƒfƒBƒŒƒNƒgƒŠ
+	*  targetã¯ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
 mv_into_dir:
 		tst.l	d7
 		bne	mv_into_dir_loop
@@ -432,7 +432,7 @@ mv_into_dir:
 		bsr	is_identical
 		bne	mv_into_dir_loop
 
-		*  ˆø”‚ª 2‚Â‚Å“¯ˆê .. rename
+		*  å¼•æ•°ãŒ 2ã¤ã§åŒä¸€ .. rename
 		bset	#FLAG_identical,d5
 		bra	mv_source_to_target
 
@@ -450,8 +450,8 @@ mv_into_dir_loop:
 		bra	mv_into_dir_loop
 ****************************************************************
 not_directory:
-		*  target‚ª‘¶İ‚·‚é‚È‚çuNot a directoryv
-		*  target‚ª‘¶İ‚µ‚È‚¢‚È‚çuNo directoryv
+		*  targetãŒå­˜åœ¨ã™ã‚‹ãªã‚‰ã€ŒNot a directoryã€
+		*  targetãŒå­˜åœ¨ã—ãªã„ãªã‚‰ã€ŒNo directoryã€
 		movea.l	a1,a0
 		bsr	lgetmode
 		lea	msg_not_a_directory(pc),a2
@@ -489,10 +489,10 @@ mv_error_exit_3:
 *****************************************************************
 * move_into_dir
 *
-*      A0 ‚Å¦‚³‚ê‚éƒGƒ“ƒgƒŠ‚ğ A1 ‚Å¦‚³‚ê‚éƒfƒBƒŒƒNƒgƒŠ‰º‚ÉˆÚ“®‚·‚é
+*      A0 ã§ç¤ºã•ã‚Œã‚‹ã‚¨ãƒ³ãƒˆãƒªã‚’ A1 ã§ç¤ºã•ã‚Œã‚‹ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªä¸‹ã«ç§»å‹•ã™ã‚‹
 *
 * RETURN
-*      D0-D3/A0-A3   ”j‰ó
+*      D0-D3/A0-A3   ç ´å£Š
 *****************************************************************
 move_into_dir_done:
 		rts
@@ -511,17 +511,17 @@ move_into_dir:
 		bclr	#FLAG_identical,d5
 		*bra	move_file
 *****************************************************************
-* move_file - ƒtƒ@ƒCƒ‹‚ğˆÚ“®‚·‚é
+* move_file - ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç§»å‹•ã™ã‚‹
 *
 * CALL
 *      A0     source path
 *      A1     target path
 *
 * RETURN
-*      D0-D3/A0-A3   ”j‰ó
+*      D0-D3/A0-A3   ç ´å£Š
 *****************************************************************
 move_file:
-		*  source ‚ğ’²‚×‚é
+		*  source ã‚’èª¿ã¹ã‚‹
 		bsr	lgetmode
 		bmi	perror
 
@@ -529,11 +529,11 @@ move_file:
 
 		exg	a0,a1				*  A0:target, A1:source
 		btst	#FLAG_identical,d5
-		bne	move_file_new			*  rename(src,target) ‚µ‚Ä‚©‚Ü‚í‚È‚¢
+		bne	move_file_new			*  rename(src,target) ã—ã¦ã‹ã¾ã‚ãªã„
 
-		*  target ‚ğ’²‚×‚é
+		*  target ã‚’èª¿ã¹ã‚‹
 		bsr	lgetmode
-		move.l	d0,d2				*  D2.L : target ‚Ì mode
+		move.l	d0,d2				*  D2.L : target ã® mode
 		bpl	move_file_target_exists
 
 		cmp.l	#ENOFILE,d0
@@ -550,13 +550,13 @@ move_file:
 
 move_file_target_exists:
 		bset	#FLAG_identical,d5
-		bsr	is_identical			*  src ‚Æ target ‚ª“¯ˆê‚È‚ç
-		beq	move_file_new			*  rename(src,target) ‚µ‚Ä‚©‚Ü‚í‚È‚¢
+		bsr	is_identical			*  src ã¨ target ãŒåŒä¸€ãªã‚‰
+		beq	move_file_new			*  rename(src,target) ã—ã¦ã‹ã¾ã‚ãªã„
 
 		bclr	#FLAG_identical,d5
 		lea	msg_directory_exists(pc),a2
-		btst	#MODEBIT_DIR,d2			*  target‚ªƒfƒBƒŒƒNƒgƒŠ‚¾‚Æ
-		bne	move_error_x			*  ã‘‚«‚Å‚«‚È‚¢‚Ì‚ÅƒGƒ‰[
+		btst	#MODEBIT_DIR,d2			*  targetãŒãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã ã¨
+		bne	move_error_x			*  ä¸Šæ›¸ãã§ããªã„ã®ã§ã‚¨ãƒ©ãƒ¼
 
 		btst.b	#MODEBIT_DIR,source_mode
 		bne	update_ok
@@ -567,9 +567,9 @@ move_file_target_exists:
 		bsr	lgetdate
 		beq	update_ok
 
-		move.l	d0,d3				*  D3.L : target ‚Ìƒ^ƒCƒ€EƒXƒ^ƒ“ƒv
+		move.l	d0,d3				*  D3.L : target ã®ã‚¿ã‚¤ãƒ ãƒ»ã‚¹ã‚¿ãƒ³ãƒ—
 		exg	a0,a1
-		bsr	lgetdate			*  D0.L : source ‚Ìƒ^ƒCƒ€EƒXƒ^ƒ“ƒv
+		bsr	lgetdate			*  D0.L : source ã®ã‚¿ã‚¤ãƒ ãƒ»ã‚¹ã‚¿ãƒ³ãƒ—
 		exg	a0,a1
 		beq	update_ok
 
@@ -579,10 +579,10 @@ update_ok:
 		bsr	confirm_replace
 		bne	move_file_return
 
-		*  target ‚ğíœ‚·‚é
+		*  target ã‚’å‰Šé™¤ã™ã‚‹
 		move.b	d2,d0
 		bsr	unlink
-			* ƒGƒ‰[ˆ—È—ª
+			* ã‚¨ãƒ©ãƒ¼å‡¦ç†çœç•¥
 		bra	move_file_new_ok
 
 move_file_new:
@@ -607,12 +607,12 @@ move_file_new_ok:
 verbose_done:
 		exg	a0,a1				*  A0:source, A1:target
 		*
-		*  source‚ªƒfƒBƒŒƒNƒgƒŠ‚È‚ç
+		*  sourceãŒãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãªã‚‰
 		*
 		btst.b	#MODEBIT_DIR,source_mode
 		beq	source_dir_ok
 
-		*  mounted point ‚Å‚È‚¢‚©‚Ç‚¤‚©’²‚×‚é
+		*  mounted point ã§ãªã„ã‹ã©ã†ã‹èª¿ã¹ã‚‹
 
 		lea	source_fatchkbuf(pc),a2
 		bsr	fatchk
@@ -620,9 +620,9 @@ verbose_done:
 
 		DOS	_CURDRV				*
 		move.w	d0,-(a7)			*
-		DOS	_CHGDRV				*  ƒhƒ‰ƒCƒu”‚ğ“¾‚é
+		DOS	_CHGDRV				*  ãƒ‰ãƒ©ã‚¤ãƒ–æ•°ã‚’å¾—ã‚‹
 		addq.l	#2,a7				*
-		move.b	d0,d2				*  D2.L : ƒhƒ‰ƒCƒu”
+		move.b	d0,d2				*  D2.L : ãƒ‰ãƒ©ã‚¤ãƒ–æ•°
 check_mount_loop:
 		move.b	d2,d0
 		bsr	get_drive_assign
@@ -653,11 +653,11 @@ check_mount_next:
 		bne	check_mount_loop
 source_dir_ok:
 		*
-		*  source‚ª
-		*    ‘‚«‚İ‹Ö~
-		*    ƒVƒXƒeƒ€ƒtƒ@ƒCƒ‹
-		*    ƒfƒBƒŒƒNƒgƒŠ
-		*  ‚È‚ç’Êí‚Ìƒtƒ@ƒCƒ‹‚Échmod‚·‚é
+		*  sourceãŒ
+		*    æ›¸ãè¾¼ã¿ç¦æ­¢
+		*    ã‚·ã‚¹ãƒ†ãƒ ãƒ•ã‚¡ã‚¤ãƒ«
+		*    ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
+		*  ãªã‚‰é€šå¸¸ã®ãƒ•ã‚¡ã‚¤ãƒ«ã«chmodã™ã‚‹
 		*
 		move.b	source_mode,d0
 		move.b	d0,d3
@@ -669,11 +669,11 @@ source_dir_ok:
 		bsr	lchmod
 		bmi	perror
 source_mode_ok:
-		*  ‚±‚±‚ÅCD3.B : ¡Œ»İ‚Ìsource‚Ìmode
+		*  ã“ã“ã§ï¼ŒD3.B : ä»Šç¾åœ¨ã®sourceã®mode
 
-		*  source‚ªƒfƒBƒŒƒNƒgƒŠ‚È‚çtarget‚ğtarget‚Érename‚µ‚Ä‚İ‚é
-		*  ‚à‚µ ENODIR ‚ª•Ô‚³‚ê‚é‚È‚çAƒfƒBƒŒƒNƒgƒŠ‚ğ‚»‚ÌƒTƒuƒfƒBƒŒƒNƒgƒŠ‚É
-		*  ˆÚ“®‚µ‚æ‚¤‚Æ‚µ‚Ä‚¢‚é‚±‚Æ‚É‚È‚é
+		*  sourceãŒãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãªã‚‰targetã‚’targetã«renameã—ã¦ã¿ã‚‹
+		*  ã‚‚ã— ENODIR ãŒè¿”ã•ã‚Œã‚‹ãªã‚‰ã€ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ãã®ã‚µãƒ–ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«
+		*  ç§»å‹•ã—ã‚ˆã†ã¨ã—ã¦ã„ã‚‹ã“ã¨ã«ãªã‚‹
 		btst.b	#MODEBIT_DIR,source_mode
 		beq	do_move_file
 
@@ -685,7 +685,7 @@ source_mode_ok:
 		cmp.l	#ENODIR,d2
 		beq	simple_move_failed
 do_move_file:
-		*  ˆÚ“®‚·‚é
+		*  ç§»å‹•ã™ã‚‹
 		move.l	a1,-(a7)
 		move.l	a0,-(a7)
 		DOS	_RENAME
@@ -693,7 +693,7 @@ do_move_file:
 		move.l	d0,d2
 		bmi	simple_move_failed
 
-		*  mode‚ğİ’è‚·‚é
+		*  modeã‚’è¨­å®šã™ã‚‹
 		movea.l	a1,a0
 		moveq	#0,d0
 		move.b	source_mode,d0
@@ -701,8 +701,8 @@ do_move_file:
 		bsr	chmodx
 		bmi	perror
 		*
-		*  ƒfƒBƒŒƒNƒgƒŠ‚ğ•Ê‚ÌeƒfƒBƒŒƒNƒgƒŠ‚ÉˆÚ“®‚µ‚½‚Ì‚È‚ç
-		*  .. ‚ªw‚·e‚ğC³‚·‚é
+		*  ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’åˆ¥ã®è¦ªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ç§»å‹•ã—ãŸã®ãªã‚‰
+		*  .. ãŒæŒ‡ã™è¦ªã‚’ä¿®æ­£ã™ã‚‹
 		*
 		btst.b	#MODEBIT_DIR,source_mode
 		beq	move_file_return
@@ -712,13 +712,13 @@ do_move_file:
 
 		lea	target_fatchkbuf(pc),a2
 		bsr	fatchk
-		bmi	move_file_return		*  target‚ÍFATŠÇ—‚³‚ê‚Ä‚¢‚È‚¢ -> '..'‚ÌC³‚Í‚µ‚È‚¢
+		bmi	move_file_return		*  targetã¯FATç®¡ç†ã•ã‚Œã¦ã„ãªã„ -> '..'ã®ä¿®æ­£ã¯ã—ãªã„
 
 		movea.l	a2,a3
 		lea	nameck_buffer(pc),a0
 		move.l	a0,-(a7)
 		move.l	a1,-(a7)
-		DOS	_NAMECK				*  eƒfƒBƒŒƒNƒgƒŠ‚ÌƒpƒX–¼‚ğ“¾‚é
+		DOS	_NAMECK				*  è¦ªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã®ãƒ‘ã‚¹åã‚’å¾—ã‚‹
 		addq.l	#8,a7
 		tst.l	d0
 		bmi	resume_dotdot_fail
@@ -726,18 +726,18 @@ do_move_file:
 		moveq	#0,d1
 		bsr	strlen
 		cmp.l	#3,d0
-		bls	parent_ok			*  eƒfƒBƒŒƒNƒgƒŠ‚Íƒ‹[ƒgEƒfƒBƒŒƒNƒgƒŠ
+		bls	parent_ok			*  è¦ªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¯ãƒ«ãƒ¼ãƒˆãƒ»ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
 
 		clr.b	-1(a0,d0.l)
 		lea	source_fatchkbuf(pc),a2
 		bsr	fatchk
-		bmi	parent_ok			*  eƒfƒBƒŒƒNƒgƒŠ‚ÍFATŠÇ—‚³‚ê‚Ä‚¢‚È‚¢ -> ƒ‹[ƒgEƒfƒBƒŒƒNƒgƒŠ‚Æ‚¢‚¤‚±‚Æ‚É‚µ‚Ä‚¨‚­
+		bmi	parent_ok			*  è¦ªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¯FATç®¡ç†ã•ã‚Œã¦ã„ãªã„ -> ãƒ«ãƒ¼ãƒˆãƒ»ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¨ã„ã†ã“ã¨ã«ã—ã¦ãŠã
 
 		move.w	(a2),d0
 		cmp.w	(a3),d0
-		bne	parent_ok			*  eƒfƒBƒŒƒNƒgƒŠ‚Ætarget‚Ìƒhƒ‰ƒCƒu‚ªˆá‚¤ -> eƒfƒBƒŒƒNƒgƒŠ‚Íƒ‹[ƒgEƒfƒBƒŒƒNƒgƒŠ
+		bne	parent_ok			*  è¦ªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¨targetã®ãƒ‰ãƒ©ã‚¤ãƒ–ãŒé•ã† -> è¦ªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¯ãƒ«ãƒ¼ãƒˆãƒ»ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
 
-		bsr	readdir				*  eƒfƒBƒŒƒNƒgƒŠ‚ğ“Ç‚Ş
+		bsr	readdir				*  è¦ªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’èª­ã‚€
 		bmi	resume_dotdot_fail
 
 		bsr	resume_drive_assign
@@ -747,12 +747,12 @@ do_move_file:
 		moveq	#16,d0
 		bsr	memcmp
 		movem.l	(a7)+,a0-a1
-		bne	parent_ok			*  eƒfƒBƒŒƒNƒgƒŠ‚ÌÅ‰‚ÌƒGƒ“ƒgƒŠ‚ª . ‚Å‚È‚¢ .. ƒ‹[ƒgEƒfƒBƒŒƒNƒgƒŠ‚Æ‚¢‚¤‚±‚Æ‚É‚µ‚Ä‚¨‚­
+		bne	parent_ok			*  è¦ªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã®æœ€åˆã®ã‚¨ãƒ³ãƒˆãƒªãŒ . ã§ãªã„ .. ãƒ«ãƒ¼ãƒˆãƒ»ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¨ã„ã†ã“ã¨ã«ã—ã¦ãŠã
 
-		move.w	26(a3),d1			*  D1.W : eƒfƒBƒŒƒNƒgƒŠ‚ÌFAT”Ô†
+		move.w	26(a3),d1			*  D1.W : è¦ªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã®FATç•ªå·
 parent_ok:
 		lea	target_fatchkbuf(pc),a2
-		bsr	readdir				*  target‚ğ“Ç‚Ş
+		bsr	readdir				*  targetã‚’èª­ã‚€
 		bmi	resume_dotdot_fail
 
 		movem.l	a0-a1,-(a7)
@@ -793,18 +793,18 @@ cannot_mv_current_directory:
 
 simple_move_failed:
 	*
-	*  ƒGƒ‰[
+	*  ã‚¨ãƒ©ãƒ¼
 	*
 		moveq	#0,d0
 		move.b	source_mode,d0
 		bsr	chmodx
 		bmi	perror
 	*
-	*  l‚¦‚ç‚ê‚éŒ´ˆö :-
-	*    ƒfƒBƒŒƒNƒgƒŠ‚ğ‚»‚ÌƒTƒuƒfƒBƒŒƒNƒgƒŠ‚ÉˆÚ“®‚µ‚æ‚¤‚Æ‚µ‚½ ... ENODIR
-	*    ƒtƒ@ƒCƒ‹‚ª‘¶İ‚·‚é ... EMVEXISTS
-	*    ƒfƒBƒŒƒNƒgƒŠ‚ªˆê”t ... EDIRFULL
-	*    ƒhƒ‰ƒCƒu‚ªˆÙ‚È‚é ... EBADDRV
+	*  è€ƒãˆã‚‰ã‚Œã‚‹åŸå›  :-
+	*    ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ãã®ã‚µãƒ–ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ç§»å‹•ã—ã‚ˆã†ã¨ã—ãŸ ... ENODIR
+	*    ãƒ•ã‚¡ã‚¤ãƒ«ãŒå­˜åœ¨ã™ã‚‹ ... EMVEXISTS
+	*    ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãŒä¸€æ¯ ... EDIRFULL
+	*    ãƒ‰ãƒ©ã‚¤ãƒ–ãŒç•°ãªã‚‹ ... EBADDRV
 	*
 		lea	msg_cannot_move_dir_to_its_sub(pc),a2
 		cmp.l	#ENODIR,d2
@@ -829,33 +829,33 @@ simple_move_failed:
 		btst.b	#MODEBIT_DIR,source_mode
 		bne	move_error
 	*
-	*  ƒhƒ‰ƒCƒu‚ªˆÙ‚È‚é
+	*  ãƒ‰ãƒ©ã‚¤ãƒ–ãŒç•°ãªã‚‹
 	*
 		lea	msg_drive_differ(pc),a2
 		btst	#FLAG_x,d5
 		bne	move_error
 		*
-		*  source ‚ğ open ‚·‚é
+		*  source ã‚’ open ã™ã‚‹
 		*
 		move.b	source_mode,d0
-		bsr	lopen				*  source ‚ğƒI[ƒvƒ“‚·‚é
+		bsr	lopen				*  source ã‚’ã‚ªãƒ¼ãƒ—ãƒ³ã™ã‚‹
 		bmi	perror
 
-		move.l	d0,d2				*  D2.L : source ‚Ìƒtƒ@ƒCƒ‹Eƒnƒ“ƒhƒ‹
+		move.l	d0,d2				*  D2.L : source ã®ãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒãƒ³ãƒ‰ãƒ«
 		*
-		*  target ‚ğ create ‚·‚é
+		*  target ã‚’ create ã™ã‚‹
 		*
 		moveq	#0,d0
 		move.b	source_mode,d0
 		bsr	newmode
 		move.w	d0,-(a7)
-		move.l	a1,-(a7)			*  target file ‚ğ
-		DOS	_CREATE				*  ì¬‚·‚é
-		addq.l	#6,a7				*  iƒhƒ‰ƒCƒu‚ÌŒŸ¸‚ÍÏ‚ñ‚Å‚¢‚éj
-		move.l	d0,d1				*  D1.L : target ‚Ìƒtƒ@ƒCƒ‹Eƒnƒ“ƒhƒ‹
+		move.l	a1,-(a7)			*  target file ã‚’
+		DOS	_CREATE				*  ä½œæˆã™ã‚‹
+		addq.l	#6,a7				*  ï¼ˆãƒ‰ãƒ©ã‚¤ãƒ–ã®æ¤œæŸ»ã¯æ¸ˆã‚“ã§ã„ã‚‹ï¼‰
+		move.l	d0,d1				*  D1.L : target ã®ãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒãƒ³ãƒ‰ãƒ«
 		bmi	copy_file_perror_2
 		*
-		*  ƒtƒ@ƒCƒ‹‚Ì“à—e‚ğƒRƒs[‚·‚é
+		*  ãƒ•ã‚¡ã‚¤ãƒ«ã®å†…å®¹ã‚’ã‚³ãƒ”ãƒ¼ã™ã‚‹
 		*
 copy_loop:
 		move.l	copy_buffer_size,-(a7)
@@ -883,7 +883,7 @@ copy_loop:
 
 copy_file_contents_done:
 		*
-		*  ƒtƒ@ƒCƒ‹‚Ìƒ^ƒCƒ€ƒXƒ^ƒ“ƒv‚ğƒRƒs[‚·‚é
+		*  ãƒ•ã‚¡ã‚¤ãƒ«ã®ã‚¿ã‚¤ãƒ ã‚¹ã‚¿ãƒ³ãƒ—ã‚’ã‚³ãƒ”ãƒ¼ã™ã‚‹
 		*
 		move.w	d2,d0
 		bsr	fgetdate
@@ -893,16 +893,16 @@ copy_file_contents_done:
 		move.w	d1,-(a7)
 		DOS	_FILEDATE
 		addq.l	#6,a7
-			* ƒGƒ‰[ˆ—È—ª (–³‹)
+			* ã‚¨ãƒ©ãƒ¼å‡¦ç†çœç•¥ (ç„¡è¦–)
 copy_timestamp_done:
 		move.w	d1,d0
 		bsr	fclose
-			* ƒGƒ‰[ˆ—È—ª
+			* ã‚¨ãƒ©ãƒ¼å‡¦ç†çœç•¥
 		move.w	d2,d0
 		bsr	fclose
-			* ƒGƒ‰[ˆ—È—ª
+			* ã‚¨ãƒ©ãƒ¼å‡¦ç†çœç•¥
 		*
-		*  source ‚ğíœ‚·‚é
+		*  source ã‚’å‰Šé™¤ã™ã‚‹
 		*
 		move.b	source_mode,d0
 		bra	unlink
@@ -925,8 +925,8 @@ copy_file_perror_2:
 		movea.l	a1,a0
 copy_file_perror_1:
 		move.l	d0,-(a7)
-		move.w	d2,d0				*  source ‚ğ
-		bsr	fclose				*  close ‚·‚é
+		move.w	d2,d0				*  source ã‚’
+		bsr	fclose				*  close ã™ã‚‹
 		move.l	(a7)+,d0
 		bra	perror
 
@@ -936,8 +936,8 @@ copy_file_perror_4:
 		movea.l	a1,a0
 copy_file_perror_3:
 		move.l	d0,-(a7)
-		move.w	d1,d0				*  target ‚ğ
-		bsr	fclose				*  close ‚·‚é
+		move.w	d1,d0				*  target ã‚’
+		bsr	fclose				*  close ã™ã‚‹
 		move.l	(a7)+,d0
 		bra	copy_file_perror_1
 *****************************************************************
@@ -947,9 +947,9 @@ chmodx:
 		rts
 *****************************************************************
 confirm_replace:
-		*  •W€“ü—Í‚ª’[––‚È‚ç‚ÎCƒ{ƒŠƒ…[ƒ€Eƒ‰ƒxƒ‹CƒVƒ“ƒ{ƒŠƒbƒNEƒŠƒ“ƒNC
-		*  “Ç‚İ‚İê—pC‰B‚µCƒVƒXƒeƒ€‚Ì‚Ç‚ê‚©‚Ì‘®«ƒrƒbƒg‚ªON‚Å‚ ‚éê‡C
-		*  –â‚¢‡‚í‚¹‚é
+		*  æ¨™æº–å…¥åŠ›ãŒç«¯æœ«ãªã‚‰ã°ï¼Œãƒœãƒªãƒ¥ãƒ¼ãƒ ãƒ»ãƒ©ãƒ™ãƒ«ï¼Œã‚·ãƒ³ãƒœãƒªãƒƒã‚¯ãƒ»ãƒªãƒ³ã‚¯ï¼Œ
+		*  èª­ã¿è¾¼ã¿å°‚ç”¨ï¼Œéš ã—ï¼Œã‚·ã‚¹ãƒ†ãƒ ã®ã©ã‚Œã‹ã®å±æ€§ãƒ“ãƒƒãƒˆãŒONã§ã‚ã‚‹å ´åˆï¼Œ
+		*  å•ã„åˆã‚ã›ã‚‹
 
 		tst.b	stdin_is_terminal
 		beq	confirm_i
@@ -1054,30 +1054,30 @@ malloc:
 		tst.l	d0
 		rts
 *****************************************************************
-* lopen - “Ç‚İ‚İƒ‚[ƒh‚Åƒtƒ@ƒCƒ‹‚ğƒI[ƒvƒ“‚·‚é
-*         ƒVƒ“ƒ{ƒŠƒbƒNEƒŠƒ“ƒN‚ÍƒŠƒ“ƒN©‘Ì‚ğƒI[ƒvƒ“‚·‚é
+* lopen - èª­ã¿è¾¼ã¿ãƒ¢ãƒ¼ãƒ‰ã§ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚ªãƒ¼ãƒ—ãƒ³ã™ã‚‹
+*         ã‚·ãƒ³ãƒœãƒªãƒƒã‚¯ãƒ»ãƒªãƒ³ã‚¯ã¯ãƒªãƒ³ã‚¯è‡ªä½“ã‚’ã‚ªãƒ¼ãƒ—ãƒ³ã™ã‚‹
 *
 * CALL
-*      A0     ƒI[ƒvƒ“‚·‚éƒtƒ@ƒCƒ‹‚ÌƒpƒX–¼
-*      D0.B   ƒtƒ@ƒCƒ‹‚Ìmodei—\‚ßæ“¾‚µ‚Ä‚¨‚­j
+*      A0     ã‚ªãƒ¼ãƒ—ãƒ³ã™ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‘ã‚¹å
+*      D0.B   ãƒ•ã‚¡ã‚¤ãƒ«ã®modeï¼ˆäºˆã‚å–å¾—ã—ã¦ãŠãï¼‰
 *
 * RETURN
-*      D0.L   ƒI[ƒvƒ“‚µ‚½ƒtƒ@ƒCƒ‹ƒnƒ“ƒhƒ‹D‚Ü‚½‚ÍDOSƒGƒ‰[EƒR[ƒh
+*      D0.L   ã‚ªãƒ¼ãƒ—ãƒ³ã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ãƒãƒ³ãƒ‰ãƒ«ï¼ã¾ãŸã¯DOSã‚¨ãƒ©ãƒ¼ãƒ»ã‚³ãƒ¼ãƒ‰
 *****************************************************************
 lopen:
 		movem.l	d1/a2-a3,-(a7)
 		btst	#MODEBIT_LNK,d0
-		beq	lopen_normal			*  SYMLINK‚Å‚Í‚È‚¢ -> ’Êí‚Ì OPEN
+		beq	lopen_normal			*  SYMLINKã§ã¯ãªã„ -> é€šå¸¸ã® OPEN
 
-		move.l	lndrv,d0			*  lndrv‚ªí’“‚µ‚Ä‚¢‚È‚¢‚È‚ç
-		beq	lopen_normal			*  ’Êí‚Ì OPEN
+		move.l	lndrv,d0			*  lndrvãŒå¸¸é§ã—ã¦ã„ãªã„ãªã‚‰
+		beq	lopen_normal			*  é€šå¸¸ã® OPEN
 
 		movea.l	d0,a2
 		movea.l	LNDRV_realpathcpy(a2),a3
 		clr.l	-(a7)
-		DOS	_SUPER				*  ƒX[ƒp[ƒoƒCƒUEƒ‚[ƒh‚ÉØ‚èŠ·‚¦‚é
+		DOS	_SUPER				*  ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒã‚¤ã‚¶ãƒ»ãƒ¢ãƒ¼ãƒ‰ã«åˆ‡ã‚Šæ›ãˆã‚‹
 		addq.l	#4,a7
-		move.l	d0,-(a7)			*  ‘O‚Ì SSP ‚Ì’l
+		move.l	d0,-(a7)			*  å‰ã® SSP ã®å€¤
 		movem.l	d2-d7/a0-a6,-(a7)
 		move.l	a0,-(a7)
 		pea	pathname_buf(pc)
@@ -1100,7 +1100,7 @@ lopen:
 		movem.l	(a7)+,d2-d7/a0-a6
 		move.l	d0,d1
 lopen_link_done:
-		DOS	_SUPER				*  ƒ†[ƒUEƒ‚[ƒh‚É–ß‚·
+		DOS	_SUPER				*  ãƒ¦ãƒ¼ã‚¶ãƒ»ãƒ¢ãƒ¼ãƒ‰ã«æˆ»ã™
 		addq.l	#4,a7
 		move.l	d1,d0
 		bra	lopen_return
@@ -1119,11 +1119,11 @@ fclosex:
 		bpl	fclose
 		rts
 *****************************************************************
-* unlink - ƒtƒ@ƒCƒ‹‚ğíœ‚·‚é
+* unlink - ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å‰Šé™¤ã™ã‚‹
 *
 * CALL
-*      A0     ƒtƒ@ƒCƒ‹‚ÌƒpƒX–¼
-*      D0.B   ƒtƒ@ƒCƒ‹‚Ìmodei—\‚ßæ“¾‚µ‚Ä‚¨‚­j
+*      A0     ãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‘ã‚¹å
+*      D0.B   ãƒ•ã‚¡ã‚¤ãƒ«ã®modeï¼ˆäºˆã‚å–å¾—ã—ã¦ãŠãï¼‰
 *****************************************************************
 unlink:
 		move.w	#MODEVAL_ARC,-(a7)
@@ -1179,15 +1179,15 @@ lgetdate:
 		move.l	(a7)+,d1
 		bra	fgetdate_done
 *****************************************************************
-* is_identical - 2‚Â‚Ìƒtƒ@ƒCƒ‹‚ª“¯ˆê‚©‚Ç‚¤‚©’²‚×‚é
+* is_identical - 2ã¤ã®ãƒ•ã‚¡ã‚¤ãƒ«ãŒåŒä¸€ã‹ã©ã†ã‹èª¿ã¹ã‚‹
 *
 * CALL
 *      A0     pathname of file 1
 *      A1     pathname of file 2
 *
 * RETURN
-*      CCR    “¯ˆê‚È‚ç‚Î EQ
-*      D0/A2-A3  ”j‰ó
+*      CCR    åŒä¸€ãªã‚‰ã° EQ
+*      D0/A2-A3  ç ´å£Š
 *****************************************************************
 is_identical:
 		lea	target_fatchkbuf(pc),a2
@@ -1227,15 +1227,15 @@ fatchk_return:
 * get_drive_assign
 *
 * CALL
-*      D0.B   ƒhƒ‰ƒCƒu”Ô†(1='A:', 2='B:', 3='C:', ...)
-*      A0     curdirŠi”[ƒoƒbƒtƒ@
+*      D0.B   ãƒ‰ãƒ©ã‚¤ãƒ–ç•ªå·(1='A:', 2='B:', 3='C:', ...)
+*      A0     curdiræ ¼ç´ãƒãƒƒãƒ•ã‚¡
 *
 * RETURN
-*      D0.L   DOS _ASSIGN ƒŠƒ^[ƒ“ƒR[ƒh
+*      D0.L   DOS _ASSIGN ãƒªã‚¿ãƒ¼ãƒ³ã‚³ãƒ¼ãƒ‰
 *
 * DESCRIPTION
-*      drivename_buffer ‚Éƒhƒ‰ƒCƒu–¼‚ğƒZƒbƒg‚·‚é.
-*      assign_pathname ‚É‚»‚Ìƒhƒ‰ƒCƒu‚Ìassign pathname‚ğæ“¾‚·‚é.
+*      drivename_buffer ã«ãƒ‰ãƒ©ã‚¤ãƒ–åã‚’ã‚»ãƒƒãƒˆã™ã‚‹.
+*      assign_pathname ã«ãã®ãƒ‰ãƒ©ã‚¤ãƒ–ã®assign pathnameã‚’å–å¾—ã™ã‚‹.
 *****************************************************************
 get_drive_assign:
 		move.l	a0,-(a7)
@@ -1248,7 +1248,7 @@ get_drive_assign:
 		pea	assign_pathname(pc)		*
 		pea	drivename_buffer(pc)		*
 		clr.w	-(a7)				*
-		DOS	_ASSIGN				*  assignæ“¾
+		DOS	_ASSIGN				*  assignå–å¾—
 		lea	10(a7),a7			*
 		rts
 *****************************************************************
@@ -1261,7 +1261,7 @@ trace_assign_loop:
 		move.l	a3,-(a7)			*
 		move.l	a2,-(a7)			*
 		clr.w	-(a7)				*
-		DOS	_ASSIGN				*  assignæ“¾
+		DOS	_ASSIGN				*  assignå–å¾—
 		lea	10(a7),a7			*
 		move.b	#'\',2(a2)
 		cmp.l	#$60,d0
@@ -1324,7 +1324,7 @@ readdir:
 
 		pea	drivename_buffer(pc)		*
 		move.w	#4,-(a7)			*
-		DOS	_ASSIGN				*  assign‰ğœ
+		DOS	_ASSIGN				*  assignè§£é™¤
 		addq.l	#6,a7				*
 		tst.l	d0
 		bmi	readdir_fail
@@ -1370,7 +1370,7 @@ resume_drive_assign:
 		pea	assign_pathname(pc)		*
 		pea	drivename_buffer(pc)		*
 		move.w	#1,-(a7)			*
-		DOS	_ASSIGN				*  assignÀs
+		DOS	_ASSIGN				*  assignå®Ÿè¡Œ
 		lea	12(a7),a7			*
 		tst.l	d0
 		bpl	resume_drive_assign_ok
@@ -1404,13 +1404,13 @@ is_chrdev_1:
 * cat_pathname_x - concatinate head and tail
 *
 * CALL
-*      A0     result buffer (MAXPATH+1ƒoƒCƒg•K—v)
+*      A0     result buffer (MAXPATH+1ãƒã‚¤ãƒˆå¿…è¦)
 *      A1     points head
 *      A2     points tail
 *
 * RETURN
 *      A1     next word
-*      A2     ”j‰ó
+*      A2     ç ´å£Š
 *      A3     tail pointer of result buffer
 *      D0.L   positive if success.
 *      CCR    TST.L D0
@@ -1425,16 +1425,16 @@ cat_pathname_x:
 cat_pathname_x_return:
 		rts
 *****************************************************************
-* is_directory - –¼‘O‚ªƒfƒBƒŒƒNƒgƒŠ‚Å‚ ‚é‚©‚Ç‚¤‚©‚ğ’²‚×‚é
+* is_directory - åå‰ãŒãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã§ã‚ã‚‹ã‹ã©ã†ã‹ã‚’èª¿ã¹ã‚‹
 *
 * CALL
-*      A0     –¼‘O
+*      A0     åå‰
 *
 * RETURN
-*      D0.L   –¼‘O/*.* ‚ª’·‚·‚¬‚é‚È‚ç‚Î -1D
-*             ‚±‚Ì‚Æ‚«ƒGƒ‰[ƒƒbƒZ[ƒW‚ª•\¦‚³‚êCD6.L ‚É‚Í 2 ‚ªƒZƒbƒg‚³‚ê‚éD
+*      D0.L   åå‰/*.* ãŒé•·ã™ãã‚‹ãªã‚‰ã° -1ï¼
+*             ã“ã®ã¨ãã‚¨ãƒ©ãƒ¼ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãŒè¡¨ç¤ºã•ã‚Œï¼ŒD6.L ã«ã¯ 2 ãŒã‚»ãƒƒãƒˆã•ã‚Œã‚‹ï¼
 *
-*             ‚»‚¤‚Å‚È‚¯‚ê‚ÎC–¼‘O‚ªƒfƒBƒŒƒNƒgƒŠ‚È‚ç‚Î 1C‚³‚à‚È‚­‚Î 0
+*             ãã†ã§ãªã‘ã‚Œã°ï¼Œåå‰ãŒãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãªã‚‰ã° 1ï¼Œã•ã‚‚ãªãã° 0
 *
 *      CCR    TST.L D0
 *****************************************************************
@@ -1449,7 +1449,7 @@ is_directory:
 		bsr	cat_pathname_x
 		bmi	is_directory_return
 
-		move.w	#MODEVAL_ALL,-(a7)		*  ‚·‚×‚Ä‚ÌƒGƒ“ƒgƒŠ‚ğŒŸõ‚·‚é
+		move.w	#MODEVAL_ALL,-(a7)		*  ã™ã¹ã¦ã®ã‚¨ãƒ³ãƒˆãƒªã‚’æ¤œç´¢ã™ã‚‹
 		move.l	a0,-(a7)
 		pea	filesbuf(pc)
 		DOS	_FILES
@@ -1571,53 +1571,53 @@ perror_table:
 	dc.w	msg_error-sys_errmsgs			*  25 (-26)
 
 sys_errmsgs:
-msg_error:			dc.b	'ƒGƒ‰[',0
-msg_nofile:			dc.b	'‚±‚Ì‚æ‚¤‚Èƒtƒ@ƒCƒ‹‚âƒfƒBƒŒƒNƒgƒŠ‚Í‚ ‚è‚Ü‚¹‚ñ',0
-msg_dirvol:			dc.b	'ƒfƒBƒŒƒNƒgƒŠ‚©ƒ{ƒŠƒ…[ƒ€Eƒ‰ƒxƒ‹‚Å‚·',0
-msg_too_many_openfiles:		dc.b	'ƒI[ƒvƒ“‚µ‚Ä‚¢‚éƒtƒ@ƒCƒ‹‚ª‘½‚·‚¬‚Ü‚·',0
-msg_bad_name:			dc.b	'–¼‘O‚ª–³Œø‚Å‚·',0
-msg_bad_drive:			dc.b	'ƒhƒ‰ƒCƒu‚Ìw’è‚ª–³Œø‚Å‚·',0
-msg_write_disabled:		dc.b	'‘‚«‚İ‚ª‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ',0
+msg_error:			dc.b	'ã‚¨ãƒ©ãƒ¼',0
+msg_nofile:			dc.b	'ã“ã®ã‚ˆã†ãªãƒ•ã‚¡ã‚¤ãƒ«ã‚„ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¯ã‚ã‚Šã¾ã›ã‚“',0
+msg_dirvol:			dc.b	'ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‹ãƒœãƒªãƒ¥ãƒ¼ãƒ ãƒ»ãƒ©ãƒ™ãƒ«ã§ã™',0
+msg_too_many_openfiles:		dc.b	'ã‚ªãƒ¼ãƒ—ãƒ³ã—ã¦ã„ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ãŒå¤šã™ãã¾ã™',0
+msg_bad_name:			dc.b	'åå‰ãŒç„¡åŠ¹ã§ã™',0
+msg_bad_drive:			dc.b	'ãƒ‰ãƒ©ã‚¤ãƒ–ã®æŒ‡å®šãŒç„¡åŠ¹ã§ã™',0
+msg_write_disabled:		dc.b	'æ›¸ãè¾¼ã¿ãŒè¨±å¯ã•ã‚Œã¦ã„ã¾ã›ã‚“',0
 msg_semicolon_directory_full:	dc.b	'; '
-msg_directory_full:		dc.b	'ƒfƒBƒŒƒNƒgƒŠ‚ª–”t‚Å‚·',0
+msg_directory_full:		dc.b	'ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãŒæº€æ¯ã§ã™',0
 msg_semicolon_file_exists:	dc.b	'; '
-msg_file_exists:		dc.b	'ƒtƒ@ƒCƒ‹‚ª‘¶İ‚µ‚Ä‚¢‚Ü‚·',0
-msg_disk_full:			dc.b	'ƒfƒBƒXƒN‚ª–”t‚Å‚·',0
+msg_file_exists:		dc.b	'ãƒ•ã‚¡ã‚¤ãƒ«ãŒå­˜åœ¨ã—ã¦ã„ã¾ã™',0
+msg_disk_full:			dc.b	'ãƒ‡ã‚£ã‚¹ã‚¯ãŒæº€æ¯ã§ã™',0
 
 msg_myname:			dc.b	'mv'
 msg_colon:			dc.b	': ',0
-msg_dos_version_mismatch:	dc.b	'ƒo[ƒWƒ‡ƒ“2.00ˆÈ~‚ÌHuman68k‚ª•K—v‚Å‚·',CR,LF,0
-msg_no_memory:			dc.b	'ƒƒ‚ƒŠ‚ª‘«‚è‚Ü‚¹‚ñ',CR,LF,0
-msg_illegal_option:		dc.b	'•s³‚ÈƒIƒvƒVƒ‡ƒ“ -- ',0
-msg_bad_arg:			dc.b	'ˆø”‚ª³‚µ‚­‚ ‚è‚Ü‚¹‚ñ',0
-msg_too_few_args:		dc.b	'ˆø”‚ª‘«‚è‚Ü‚¹‚ñ',0
-msg_too_long_pathname:		dc.b	'ƒpƒX–¼‚ª’·‰ß‚¬‚Ü‚·',0
-msg_nodir:			dc.b	'ƒfƒBƒŒƒNƒgƒŠ‚ª‚ ‚è‚Ü‚¹‚ñ',0
-msg_not_a_directory:		dc.b	'ƒfƒBƒŒƒNƒgƒŠ‚Å‚Í‚ ‚è‚Ü‚¹‚ñ',0
-msg_destination:		dc.b	' ‚ÌˆÚ“®æ ',0
-msg_ni:				dc.b	' ‚É',0
-msg_readonly:			dc.b	'‘‚«‚İ‹Ö~',0
-msg_hidden:			dc.b	'‰B‚µ',0
-msg_system:			dc.b	'ƒVƒXƒeƒ€',0
-msg_file:			dc.b	'ƒtƒ@ƒCƒ‹',0
-msg_vollabel:			dc.b	'ƒ{ƒŠƒ…[ƒ€Eƒ‰ƒxƒ‹',0
-msg_symlink:			dc.b	'ƒVƒ“ƒ{ƒŠƒbƒNEƒŠƒ“ƒN',0
-msg_confirm_replace:		dc.b	'‚ª‘¶İ‚µ‚Ä‚¢‚Ü‚·DÁ‹‚µ‚ÄˆÚ“®‚µ‚Ü‚·‚©H ',0
-msg_wo:				dc.b	' ‚ğ ',0
-msg_confirm_move:		dc.b	' ‚ÉˆÚ“®‚µ‚Ü‚·‚©H ',0
-msg_cannot_move:		dc.b	' ‚ÉˆÚ“®‚Å‚«‚Ü‚¹‚ñ',0
-msg_directory_exists:		dc.b	'; ˆÚ“®æ‚ÉƒfƒBƒŒƒNƒgƒŠ‚ª‘¶İ‚µ‚Ä‚¢‚Ü‚·',0
-msg_cannot_move_dir_to_its_sub:	dc.b	'; ƒfƒBƒŒƒNƒgƒŠ‚ğ‚»‚ÌƒTƒuƒfƒBƒŒƒNƒgƒŠ‰º‚ÉˆÚ“®‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñ',0
-msg_cannot_move_dirvol_across:	dc.b	'; ƒfƒBƒŒƒNƒgƒŠ‚âƒ{ƒŠƒ…[ƒ€Eƒ‰ƒxƒ‹‚ğ•Ê‚Ìƒhƒ‰ƒCƒu‚ÉˆÚ“®‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñ',0
-msg_cannot_move_current_dir:	dc.b	'; Šeƒhƒ‰ƒCƒu‚ÌƒJƒŒƒ“ƒgEƒfƒBƒŒƒNƒgƒŠ‚ğˆÚ“®‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñ',0
-msg_drive_differ:		dc.b	'; ƒhƒ‰ƒCƒu‚ªˆÙ‚È‚è‚Ü‚·',0
-msg_resume_dotdot_fail:		dc.b	'.. ‚ğC³‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½',0
-msg_could_not_remount:		dc.b	'umount‚³‚ê‚Ü‚µ‚½i•œ‹Œ‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½j',0
+msg_dos_version_mismatch:	dc.b	'ãƒãƒ¼ã‚¸ãƒ§ãƒ³2.00ä»¥é™ã®Human68kãŒå¿…è¦ã§ã™',CR,LF,0
+msg_no_memory:			dc.b	'ãƒ¡ãƒ¢ãƒªãŒè¶³ã‚Šã¾ã›ã‚“',CR,LF,0
+msg_illegal_option:		dc.b	'ä¸æ­£ãªã‚ªãƒ—ã‚·ãƒ§ãƒ³ -- ',0
+msg_bad_arg:			dc.b	'å¼•æ•°ãŒæ­£ã—ãã‚ã‚Šã¾ã›ã‚“',0
+msg_too_few_args:		dc.b	'å¼•æ•°ãŒè¶³ã‚Šã¾ã›ã‚“',0
+msg_too_long_pathname:		dc.b	'ãƒ‘ã‚¹åãŒé•·éãã¾ã™',0
+msg_nodir:			dc.b	'ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãŒã‚ã‚Šã¾ã›ã‚“',0
+msg_not_a_directory:		dc.b	'ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã§ã¯ã‚ã‚Šã¾ã›ã‚“',0
+msg_destination:		dc.b	' ã®ç§»å‹•å…ˆ ',0
+msg_ni:				dc.b	' ã«',0
+msg_readonly:			dc.b	'æ›¸ãè¾¼ã¿ç¦æ­¢',0
+msg_hidden:			dc.b	'éš ã—',0
+msg_system:			dc.b	'ã‚·ã‚¹ãƒ†ãƒ ',0
+msg_file:			dc.b	'ãƒ•ã‚¡ã‚¤ãƒ«',0
+msg_vollabel:			dc.b	'ãƒœãƒªãƒ¥ãƒ¼ãƒ ãƒ»ãƒ©ãƒ™ãƒ«',0
+msg_symlink:			dc.b	'ã‚·ãƒ³ãƒœãƒªãƒƒã‚¯ãƒ»ãƒªãƒ³ã‚¯',0
+msg_confirm_replace:		dc.b	'ãŒå­˜åœ¨ã—ã¦ã„ã¾ã™ï¼æ¶ˆå»ã—ã¦ç§»å‹•ã—ã¾ã™ã‹ï¼Ÿ ',0
+msg_wo:				dc.b	' ã‚’ ',0
+msg_confirm_move:		dc.b	' ã«ç§»å‹•ã—ã¾ã™ã‹ï¼Ÿ ',0
+msg_cannot_move:		dc.b	' ã«ç§»å‹•ã§ãã¾ã›ã‚“',0
+msg_directory_exists:		dc.b	'; ç§»å‹•å…ˆã«ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãŒå­˜åœ¨ã—ã¦ã„ã¾ã™',0
+msg_cannot_move_dir_to_its_sub:	dc.b	'; ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ãã®ã‚µãƒ–ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªä¸‹ã«ç§»å‹•ã™ã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“',0
+msg_cannot_move_dirvol_across:	dc.b	'; ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚„ãƒœãƒªãƒ¥ãƒ¼ãƒ ãƒ»ãƒ©ãƒ™ãƒ«ã‚’åˆ¥ã®ãƒ‰ãƒ©ã‚¤ãƒ–ã«ç§»å‹•ã™ã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“',0
+msg_cannot_move_current_dir:	dc.b	'; å„ãƒ‰ãƒ©ã‚¤ãƒ–ã®ã‚«ãƒ¬ãƒ³ãƒˆãƒ»ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ç§»å‹•ã™ã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“',0
+msg_drive_differ:		dc.b	'; ãƒ‰ãƒ©ã‚¤ãƒ–ãŒç•°ãªã‚Šã¾ã™',0
+msg_resume_dotdot_fail:		dc.b	'.. ã‚’ä¿®æ­£ã§ãã¾ã›ã‚“ã§ã—ãŸ',0
+msg_could_not_remount:		dc.b	'umountã•ã‚Œã¾ã—ãŸï¼ˆå¾©æ—§ã§ãã¾ã›ã‚“ã§ã—ãŸï¼‰',0
 
 msg_usage:			dc.b	CR,LF
-	dc.b	'g—p–@:  mv [-Ifiuvx] [-m <‘®«•ÏX®>] [--] <‹ŒƒpƒX–¼> <VƒpƒX–¼>',CR,LF
-	dc.b	'         mv [-Iefiuvx] [-m <‘®«•ÏX®>] [--] <ƒtƒ@ƒCƒ‹> ... <ˆÚ“®æ>',CR,LF,CR,LF
-	dc.b	'         ‘®«•ÏX®: {[ugoa]{{+-=}[ashrwx]}...}[,...] ‚Ü‚½‚Í 8i”’l•\Œ»'
+	dc.b	'ä½¿ç”¨æ³•:  mv [-Ifiuvx] [-m <å±æ€§å¤‰æ›´å¼>] [--] <æ—§ãƒ‘ã‚¹å> <æ–°ãƒ‘ã‚¹å>',CR,LF
+	dc.b	'         mv [-Iefiuvx] [-m <å±æ€§å¤‰æ›´å¼>] [--] <ãƒ•ã‚¡ã‚¤ãƒ«> ... <ç§»å‹•å…ˆ>',CR,LF,CR,LF
+	dc.b	'         å±æ€§å¤‰æ›´å¼: {[ugoa]{{+-=}[ashrwx]}...}[,...] ã¾ãŸã¯ 8é€²æ•°å€¤è¡¨ç¾'
 msg_newline:			dc.b	CR,LF
 msg_nul:			dc.b	0
 msg_arrow:			dc.b	' -> ',0
@@ -1632,9 +1632,9 @@ lndrv:			ds.l	1
 copy_buffer_top:	ds.l	1
 copy_buffer_size:	ds.l	1
 .even
-source_fatchkbuf:	ds.b	14+8			*  +8 : fatchkƒoƒO‘Îô
+source_fatchkbuf:	ds.b	14+8			*  +8 : fatchkãƒã‚°å¯¾ç­–
 .even
-target_fatchkbuf:	ds.b	14+8			*  +8 : fatchkƒoƒO‘Îô
+target_fatchkbuf:	ds.b	14+8			*  +8 : fatchkãƒã‚°å¯¾ç­–
 .even
 dpb_buffer:		ds.b	94
 .even
